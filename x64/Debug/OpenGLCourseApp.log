@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\anpet\source\repos\OpenGLCourseApp\OpenGLCourseApp\Window.h(14,36): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\anpet\source\repos\OpenGLCourseApp\OpenGLCourseApp\Window.h(15,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\anpet\source\repos\OpenGLCourseApp\OpenGLCourseApp\main.cpp(81,52): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\anpet\source\repos\OpenGLCourseApp\OpenGLCourseApp\main.cpp(209,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  OpenGLCourseApp.vcxproj -> C:\Users\anpet\source\repos\OpenGLCourseApp\x64\Debug\OpenGLCourseApp.exe

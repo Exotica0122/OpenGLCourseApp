@@ -1,0 +1,83 @@
+init:
+
+bool direction = true;
+float triOffset = 0.f;
+float triMaxOffset = 0.7f;
+float triIncrement = 0.005f;
+
+float curAngle = 0.f;
+
+bool sizeDirection = true;
+float curSize = 0.4f;
+float maxSize = 0.8f;
+float minSize = 0.1f;
+
+main:
+
+		if (direction) 
+		{
+			triOffset += triIncrement;
+		}
+		else 
+		{
+			triOffset -= triIncrement;
+		}
+
+		if (abs(triOffset) >= triMaxOffset) 
+		{
+			direction = !direction;
+		}
+
+		curAngle += 0.1f;
+
+		if (curAngle >= 360)
+		{
+			curAngle -= 360;
+		}
+
+		if (sizeDirection)
+		{
+			curSize += 0.001f;
+		}
+		else
+		{
+			curSize -= 0.001f;
+		}
+
+		if (curSize >= maxSize || curSize <= minSize)
+		{
+			sizeDirection = !sizeDirection;
+		}		if (direction) 
+		{
+			triOffset += triIncrement;
+		}
+		else 
+		{
+			triOffset -= triIncrement;
+		}
+
+		if (abs(triOffset) >= triMaxOffset) 
+		{
+			direction = !direction;
+		}
+
+		curAngle += 0.1f;
+
+		if (curAngle >= 360)
+		{
+			curAngle -= 360;
+		}
+
+		if (sizeDirection)
+		{
+			curSize += 0.001f;
+		}
+		else
+		{
+			curSize -= 0.001f;
+		}
+
+		if (curSize >= maxSize || curSize <= minSize)
+		{
+			sizeDirection = !sizeDirection;
+		}
